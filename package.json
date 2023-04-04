@@ -1,0 +1,31 @@
+{
+  "name": "io.cordova.trustlyexample",
+  "displayName": "Trustly Cordova Example",
+  "version": "1.0.0",
+  "description": "An example Cordova application that renders the Trustly Lightbox experience.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ecosystem:cordova"
+  ],
+  "author": "Trustly Developer Experience Team",
+  "license": "MIT",
+  "devDependencies": {
+    "cordova-browser": "^6.0.0",
+    "cordova-ios": "^6.2.0",
+    "cordova-plugin-oauth": "git+https://github.com/TrustlyInc/cordova-plugin-oauth.git"
+  },
+  "cordova": {
+    "platforms": [
+      "browser",
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-oauth": {
+        "URL_SCHEME": "$PACKAGE_NAME"
+      }
+    }
+  }
+}

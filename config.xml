@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cordova.trustlyexample" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Trustly Cordova Example</name>
+    <description>Example Cordova application that renders the Trustly Lightbox</description>
+    <author email="amer-developers@trustly.com" href="https://amer.developers.trustly.com">
+        Trustly Developer Experience Team
+    </author>
+    <content src="index.html" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-navigation href="*" />
+</widget>
