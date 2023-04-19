@@ -5,7 +5,7 @@
 1. Clone this repository
 
 ```
-git clone ...
+git clone git@github.com:TrustlyInc/trustly-cordova-example.git
 ```
 2. Install project dependencies
 
