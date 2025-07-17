@@ -13,18 +13,21 @@
   "author": "Trustly Developer Experience Team",
   "license": "MIT",
   "devDependencies": {
+    "cordova-android": "^14.0.1",
     "cordova-browser": "^6.0.0",
     "cordova-ios": "^6.2.0",
-    "cordova-plugin-oauth": "git+https://github.com/TrustlyInc/cordova-plugin-oauth.git"
+    "cordova-plugin-oauth": "github:TrustlyInc/cordova-plugin-oauth"
   },
   "cordova": {
     "platforms": [
       "browser",
-      "ios"
+      "ios",
+      "android"
     ],
     "plugins": {
       "cordova-plugin-oauth": {
-        "URL_SCHEME": "$PACKAGE_NAME"
+        "URL_SCHEME": "$PACKAGE_NAME",
+        "ANDROID_SUPPORT_CUSTOM_TABS_VERSION": "1.3.0"
       }
     }
   }
