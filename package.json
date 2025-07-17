@@ -16,7 +16,7 @@
     "cordova-android": "^14.0.1",
     "cordova-browser": "^6.0.0",
     "cordova-ios": "^6.2.0",
-    "cordova-plugin-oauth": "github:TrustlyInc/cordova-plugin-oauth"
+    "cordova-plugin-oauth": "git+https://github.com/TrustlyInc/cordova-plugin-oauth.git"
   },
   "cordova": {
     "platforms": [
