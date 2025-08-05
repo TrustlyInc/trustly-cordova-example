@@ -23,6 +23,13 @@ const returnEstablishData = platform => {
       paymentType: 'Retrieval',
       returnUrl: `${lightboxRedirectURL}/return`,
       cancelUrl: `${lightboxRedirectURL}/cancel`,
+      customer: {
+        address: {
+          country: 'US',
+        },
+        email: 'john@us.com',
+        name: 'John',
+      }
     };
     // check platform for mobile
     if (platform === "android" || platform === "ios") {
